@@ -31,7 +31,7 @@ Objective: Obtain, clean, and understand the dataset to prepare it for analysis 
     - The target column is: salary
 
   - 2.4 Descriptive Statistics:
-    - Summary statistics for continuous features: **********************************
+    - Summary statistics for continuous features: https://github.com/markcoty/data-science-jobs-2025/blob/main/Visuals/summary%20stats.png
 
 
 3. Exploratory Data Analysis (EDA)
@@ -56,7 +56,7 @@ Objective: Build and evaluate logistic regression and alternative models for pre
     - Random Forest Classifier.
     - XGBoost
 
-  - 4.3 Model Performance Metrics: ******************************************
+  - 4.3 Model Performance Metrics: https://github.com/markcoty/data-science-jobs-2025/blob/main/Visuals/Model%20Metrics.png
 
 
 5. Steps to Reproduce:
@@ -75,7 +75,7 @@ Objective: Build and evaluate logistic regression and alternative models for pre
  - The means of the salaries posted for Data Scientist and Machine Learning Engineer are nearly identical.
  - The medians of the salaries, in our dataset, were widely disparate.
  - By doing a little more data cleaning, removing the bottom 10% of MLE salaries, we were able to show that the medians and other quartiles are nearly idntical.
- - This is justified, since some of the salaries for the MLE column were absurdly low, as low as $55!
+ - This was justified, since some of the salaries for the MLE column were absurdly low, as low as $55!
 
 
 
