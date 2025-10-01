@@ -56,7 +56,8 @@ Objective: Build and evaluate logistic regression and alternative models for pre
     - Random Forest Classifier.
     - XGBoost
 
-  - 4.3 Model Performance Metrics: ![Metrics](https://github.com/markcoty/data-science-jobs-2025/blob/main/Visuals/Model%20Metrics.png)
+  - 4.3 Model Performance Metrics:
+    ![Metrics](https://github.com/markcoty/data-science-jobs-2025/blob/main/Visuals/Model%20Metrics.png)
 
 
 5. Steps to Reproduce:
