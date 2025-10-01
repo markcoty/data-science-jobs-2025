@@ -31,16 +31,8 @@ Objective: Obtain, clean, and understand the dataset to prepare it for analysis 
     - The target column is: salary
 
   - 2.4 Descriptive Statistics:
-    - Summary statistics for continuous features:
-      -               count          mean            std   min       25%       50%  \
-company_size  926.0  95527.780778  182950.406998   5.0  1800.000   20040.0   
-salary        926.0  92105.487581   82105.433463  27.0   396.375  108117.0   
-skills        926.0      4.444924       3.664983   0.0     1.000       4.0   
+    - Summary statistics for continuous features: **********************************
 
-                    75%       max  
-company_size   94537.50  865476.0  
-salary        161456.75  283481.5  
-skills             7.00      17.0  
 
 3. Exploratory Data Analysis (EDA)
 
@@ -64,12 +56,8 @@ Objective: Build and evaluate logistic regression and alternative models for pre
     - Random Forest Classifier.
     - XGBoost
 
-  - 4.3 Performance Metrics:
-    -                Accuracy  Precision    Recall        F1   ROC-AUC
-Model                                                                 
-Logistic Regression  0.762162   0.762376  0.793814  0.777778  0.843779
-Random Forest        0.778378   0.774510  0.814433  0.793970  0.874941
-XGBoost              0.708108   0.731183  0.701031  0.715789  0.813906
+  - 4.3 Model Performance Metrics: ******************************************
+
 
 5. Steps to Reproduce:
   - Run the code in the "Notebooks" folder in Jupyter Notebooks or other Python IDE. 
@@ -78,19 +66,17 @@ XGBoost              0.708108   0.731183  0.701031  0.715789  0.813906
   - Top feature contributing to predictions: Location of the company's headquarters (USA).
 
 7. Hypothesis Testing
+ - We cannot conclude that there is a difference in mean salaries offered under the two job descriptions, Data Scientist and ML Engineer.
+ - Also, there is no significant difference in the distributions of the salaries between the two job titles.
+ - However, there is one feature of the plots that is startling: the much higher median for the Data Scientist jobs.
+ - We dropped the lowest 10% of salaries from our already-small MLE sample and ran the Mann Whitney test again. Now it shows all 3 quartiles as nearly identical.
 
-8. Conclusion and Recommendations
+8. Conclusions:
+ - The means of the salaries posted for Data Scientist and Machine Learning Engineer are nearly identical.
+ - The medians of the salaries, in our dataset, were widely disparate.
+ - By doing a little more data cleaning, removing the bottom 10% of MLE salaries, we were able to show that the medians and other quartiles are nearly idntical.
+ - This is justified, since some of the salaries for the MLE column were absurdly low, as low as $55!
 
-  - 7.1 Key Findings
-    - 
 
-  - 7.2 Practical Implications
-    - 
-
-  - 7.3 Limitations
-    - 
-
-  - 7.4 Future Work
-    - 
 
 All code for this project is available in the: [Notebook Folder](https://github.com/markcoty/data-science-jobs-2025/tree/main/Notebook)
