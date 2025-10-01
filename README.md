@@ -31,7 +31,7 @@ Objective: Obtain, clean, and understand the dataset to prepare it for analysis 
     - The target column is: salary
 
   - 2.4 Descriptive Statistics:
-    - Summary statistics for continuous features: https://github.com/markcoty/data-science-jobs-2025/blob/main/Visuals/summary%20stats.png
+    - Summary statistics for continuous features: ![Stats](https://github.com/markcoty/data-science-jobs-2025/blob/main/Visuals/summary%20stats.png)
 
 
 3. Exploratory Data Analysis (EDA)
@@ -56,7 +56,7 @@ Objective: Build and evaluate logistic regression and alternative models for pre
     - Random Forest Classifier.
     - XGBoost
 
-  - 4.3 Model Performance Metrics: https://github.com/markcoty/data-science-jobs-2025/blob/main/Visuals/Model%20Metrics.png
+  - 4.3 Model Performance Metrics: ![Metrics](https://github.com/markcoty/data-science-jobs-2025/blob/main/Visuals/Model%20Metrics.png)
 
 
 5. Steps to Reproduce:
